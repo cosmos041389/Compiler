@@ -1,0 +1,23 @@
+********** MiniC Compiler **********
+Lexical Analysis ...
+token1.kind = Token.ERROR
+token1.lexeme = "2.1e+"
+token1.src_pos.StartLine = 1
+token1.src_pos.EndLine = 1
+token1.src_pos.StartCol = 1
+token1.src_pos.EndCol = 5
+
+token3.kind = Token.INTLITERAL
+token3.lexeme = "2"
+token3.src_pos.StartLine = 1
+token3.src_pos.EndLine = 1
+token3.src_pos.StartCol = 20
+token3.src_pos.EndCol = 20
+
+token4.kind = Token.EOF
+token4.lexeme = "$"
+token4.src_pos.StartLine = 2
+token4.src_pos.EndLine = 2
+token4.src_pos.StartCol = 1
+token4.src_pos.EndCol = 1
+

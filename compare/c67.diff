@@ -1,0 +1,97 @@
+1,58c1,37
+< ********** MiniC Compiler **********
+< Lexical Analysis ...
+< token1.kind = Token.ERROR
+< token1.lexeme = "2.0e"
+< token1.src_pos.StartLine = 1
+< token1.src_pos.EndLine = 1
+< token1.src_pos.StartCol = 1
+< token1.src_pos.EndCol = 4
+< 
+< token2.kind = Token.FLOATLITERAL
+< token2.lexeme = ".4"
+< token2.src_pos.StartLine = 1
+< token2.src_pos.EndLine = 1
+< token2.src_pos.StartCol = 5
+< token2.src_pos.EndCol = 6
+< 
+< token3.kind = Token.DIV
+< token3.lexeme = "/"
+< token3.src_pos.StartLine = 1
+< token3.src_pos.EndLine = 1
+< token3.src_pos.StartCol = 7
+< token3.src_pos.EndCol = 8
+< 
+< token4.kind = Token.TIMES
+< token4.lexeme = "*"
+< token4.src_pos.StartLine = 1
+< token4.src_pos.EndLine = 1
+< token4.src_pos.StartCol = 9
+< token4.src_pos.EndCol = 9
+< 
+< token5.kind = Token.TIMES
+< token5.lexeme = "*"
+< token5.src_pos.StartLine = 1
+< token5.src_pos.EndLine = 1
+< token5.src_pos.StartCol = 10
+< token5.src_pos.EndCol = 10
+< 
+< token6.kind = Token.DIV
+< token6.lexeme = "/"
+< token6.src_pos.StartLine = 1
+< token6.src_pos.EndLine = 1
+< token6.src_pos.StartCol = 11
+< token6.src_pos.EndCol = 11
+< 
+< token7.kind = Token.FLOATLITERAL
+< token7.lexeme = "2.0"
+< token7.src_pos.StartLine = 1
+< token7.src_pos.EndLine = 1
+< token7.src_pos.StartCol = 12
+< token7.src_pos.EndCol = 14
+< 
+< token8.kind = Token.EOF
+< token8.lexeme = "$"
+< token8.src_pos.StartLine = 2
+< token8.src_pos.EndLine = 2
+< token8.src_pos.StartCol = 1
+< token8.src_pos.EndCol = 1
+< 
+---
+> ********** MiniC Compiler **********
+> Lexical Analysis ...
+> token1.kind = Token.FLOATLITERAL
+> token1.lexeme = "2.0"
+> token1.src_pos.StartLine = 1
+> token1.src_pos.EndLine = 1
+> token1.src_pos.StartCol = 1
+> token1.src_pos.EndCol = 3
+> 
+> token2.kind = Token.ID
+> token2.lexeme = "e"
+> token2.src_pos.StartLine = 1
+> token2.src_pos.EndLine = 1
+> token2.src_pos.StartCol = 4
+> token2.src_pos.EndCol = 4
+> 
+> token3.kind = Token.FLOATLITERAL
+> token3.lexeme = ".4"
+> token3.src_pos.StartLine = 1
+> token3.src_pos.EndLine = 1
+> token3.src_pos.StartCol = 5
+> token3.src_pos.EndCol = 6
+> 
+> token4.kind = Token.FLOATLITERAL
+> token4.lexeme = "2.0"
+> token4.src_pos.StartLine = 1
+> token4.src_pos.EndLine = 1
+> token4.src_pos.StartCol = 12
+> token4.src_pos.EndCol = 14
+> 
+> token5.kind = Token.EOF
+> token5.lexeme = "$"
+> token5.src_pos.StartLine = 2
+> token5.src_pos.EndLine = 2
+> token5.src_pos.StartCol = 1
+> token5.src_pos.EndCol = 1
+> 
